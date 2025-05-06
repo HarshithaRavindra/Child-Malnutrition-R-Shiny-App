@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>India_SUWOvOb</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>India_SUWOvOb.shp</path>
+            </datasource>
+            <layername>India_SUWOvOb</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>POLY_ID</var>
+                <var>DISTRICT</var>
+                <var>ST_NM</var>
+                <var>ST_CEN_CD</var>
+                <var>DT_CEN_CD</var>
+                <var>censuscode</var>
+                <var>overweight</var>
+                <var>obese_Coun</var>
+                <var>stunt_Coun</var>
+                <var>under_Coun</var>
+                <var>wast_Count</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>India_SUWOvOb</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>India_SUWOvOb.gal</path>
+                        <id_variable>censuscode</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>641</num_observations>
+                        <min_neighbors>0</min_neighbors>
+                        <max_neighbors>10</max_neighbors>
+                        <mean_neighbors>5.329173166926677</mean_neighbors>
+                        <median_neighbors>5</median_neighbors>
+                        <non_zero_perc>0.831384269411338</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
